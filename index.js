@@ -11,7 +11,8 @@ app.get('/', (req,res) =>
 });
 
 //create dynamic Port Binding
-const PORT = process.env.PORT || 5000 ;
+const PORT = process.env.PORT || 5000;
+
 app.listen(PORT);
 //This instructs express app to tell node that
 //it wants to listen for incoming traffic on port 5000.
